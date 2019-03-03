@@ -1,0 +1,54 @@
+html {
+  overflow-x: hidden;
+  background-color: #9bc5c3;
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#search {
+  width: 50%;
+  height: 45px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  position: absolute;
+  left: 20%;
+}
+
+#searchBtn {
+  border: none;
+  width: 10%;
+  height: 47px;
+  font-size: 1.2rem;
+  background-color: #d4d3dd;
+  position: absolute;
+  left: 70%;
+}
+
+#results {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item {
+  margin-top: 4rem;
+  height: 250px;
+  padding-top: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.item img {
+  width: 128px;
+  height: 200px;
+  float: right;
+}
